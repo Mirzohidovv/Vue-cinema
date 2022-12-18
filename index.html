@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>Vue-Cinema</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__poster">
+            <a href="./index.html" class="header__poster-logo">
+                <i class="fal fa-film"></i>
+            </a>
+            <p class="header__poster-text">
+                See no special offer restrictions
+            </p>
+        </div>
+        <nav class="header-nav">
+            <div class="header-nav__content container">
+                <a href="#!" class="header-nav__logo">
+                    <img src="./img/loho-header.svg" alt="">
+                    <span class="header-nav__logo-span">CINEMAS</span>
+                </a>
+                <ul class="header-nav__list">
+                    <li>
+                        <a href="#films" class="header-nav__link">
+                            <span class="header-nav__padding">Films</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#serials" class="header-nav__link">
+                            <span class="header-nav__padding">Serials</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#cartoons" class="header-nav__link">
+                            <span class="header-nav__padding">Cartoons</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#collections" class="header-nav__link">
+                            <span class="header-nav__padding">Collections</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="intro">
+            <video src="./videos/intro-bg2.mp4" autoplay muted loop class="intro__bg"></video>
+            <div class="intro__content container">
+                <h1 class="intro__title">Kong: Skull Island</h1>
+                <p class="intro__text">
+                    The film takes the viewer to the 70s of the last century. The protagonist organizes an expedition to
+                    the Skull island, always covered in fog, on which King Kong was once caught to find the missing
+                    brother and some mysterious substance. During...
+                </p>
+                <div class="intro__links">
+                    <a href="https://www.youtube.com/watch?v=H2HSfPEEbkw" target="_blank" class="link">Watch
+                        now</a>
+                    <a href="#!" class="link" download="./videos/intro-bg2.mp4">Download</a>
+                </div>
+            </div>
+        </section>
+        <section class="films" id="films">
+
+            <div class="films__content container">
+
+                <h2 class="title">films</h2>
+
+                <div class="films__box">
+                    <div class="films__card">
+                        <img src="./img/films-1.jpg" alt="" class="films__card-img">
+                        <a href="#" class="films__card-link"><i class="fad fa-play"></i></a>
+                        <p class="films__card-time">2:14:33</p>
+                        <h3 class="films__card-title">Black Panther</h3>
+                        <p class="films__card-text">
+                            At first glance, you can decide that Wakanda is an ordinary territory of wild Africa, but
+                            this is not so. Here, in the bowels of the desert lands, there are hidden deposits of a
+                            unique metal capable of absorbing...
+                        </p>
+                    </div>
+                    <div class="films__card">
+                        <img src="./img/films-2.jpg" alt="" class="films__card-img">
+                        <a href="#" class="films__card-link"><i class="fad fa-play"></i></a>
+                        <p class="films__card-time">2:32:13</p>
+                        <h3 class="films__card-title">The Dark Knight</h3>
+                        <p class="films__card-text">
+                            Batman raises stakes in the war on crime. With the help of Lieutenant Jim Gordon and
+                            Attorney Harvey Dent, he intends to clear the streets of crime that is poisoning the city.
+                            The cooperation is effective, but soon they...
+                        </p>
+                    </div>
+                    <div class="films__card">
+                        <img src="./img/films-3.jpg" alt="" class="films__card-img">
+                        <a href="#" class="films__card-link"><i class="fad fa-play"></i></a>
+                        <p class="films__card-time">1:53:45</p>
+                        <h3 class="films__card-title">The Gentlemen</h3>
+                        <p class="films__card-text">
+                            One cunning American, from his student years, had been selling drugs, and now he came up
+                            with a scheme of illegal enrichment using the estates of an impoverished English aristocracy
+                            and made a very good fortune on ...
+                        </p>
+                    </div>
+                    <div class="films__card">
+                        <img src="./img/films-4.jpg" alt="" class="films__card-img">
+                        <a href="#" class="films__card-link"><i class="fad fa-play"></i></a>
+                        <p class="films__card-time">2:58:20</p>
+                        <h3 class="films__card-title">The Lord of the...</h3>
+                        <p class="films__card-text">
+                            Tales of Middle-earth is a chronicle of the Great War for the Ring, a war that lasted more
+                            than one thousand years. The one who owned the Ring received power over all living
+                            creatures, but was obliged to serve evil...
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="cartoons" id="cartoons">
+            <video src="./videos/Black-Widow.mp4" class="cartoons__bg" autoplay muted loop></video>
+            <div class="cartoons__content container">
+                <img src="./img/cartoons-logo.png" alt="" class="cartoons__logo">
+                <p class="cartoons__text">
+                    After the events at the Leipzig-Halle airport, Natasha was overtaken by the mistakes of the past.
+                    The Red Room again made itself felt - a program to create Widows - professional killers and spies -
+                    just like her. Natasha decides once and for all to deal with people whose efforts she herself became
+                    a Widow.
+                </p>
+                <a href="#!" class="link">Watch now</a>
+            </div>
+        </section>
+        <section class="collections" id="collections">
+            <div class="collections__content container">
+                <h2 class="title">Collections</h2>
+                <div class="collections__box">
+                    <div class="collections__item">
+                        <img src="./img/collec-1.jpg" alt="All Marvel Films" class="collections__item-img">
+                        <a href="#!" class="collections__item-icon"><i class="fad fa-play"></i></a>
+                        <h4 class="collections__item-title">All Marvel Films</h4>
+                    </div>
+                    <div class="collections__item">
+                        <img src="./img/collec-2.jpg" alt="Fast and the Furious" class="collections__item-img">
+                        <a href="#!" class="collections__item-icon"><i class="fad fa-play"></i></a>
+                        <h4 class="collections__item-title">Fast and the Furious</h4>
+                    </div>
+                    <div class="collections__item">
+                        <img src="./img/collec-3.jpg" alt="Star Wars" class="collections__item-img">
+                        <a href="#!" class="collections__item-icon"><i class="fad fa-play"></i></a>
+                        <h4 class="collections__item-title">Star Wars</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="serials" id="serials">
+            <div class="serials__content container">
+                <h2 class="title">Serials</h2>
+                <div class="serials__poster">
+                    <img src="./img/serial1.jpg" alt="Game of Thrones" class="serials__poster-img">
+                    <h3 class="serials__poster-title">Game of Thrones</h3>
+                    <p class="serials__poster-text">The time of prosperity is drawing to a close, and the summer, which
+                        lasted almost a decade, is dying away. Around the center of power of the Seven Kingdoms, the
+                        Iron Throne, a conspiracy is ripening, and during this difficult time, the king decides to seek
+                        support from his youth friend Eddard Stark. In a world where everyone - from the king to the
+                        mercenary - is eager for power, intrigues and is ready to stick a knife in the back, there is
+                        ...</p>
+                    <a href="#!" class="link">watch now</a>
+
+                </div>
+                <div class="serials__items">
+                    <div class="serials__item">
+                        <img src="./img/serial2.jpg" alt="Wanda Vision" class="serials__item-img">
+                        <a href="" class="serials__item-icon"><i class="fad fa-play"></i></a>
+                        <h3 class="serials__item-title">Wanda Vision</h3>
+                    </div>
+                    <div class="serials__item">
+                        <img src="./img/serial3.jpg" alt="The Flash " class="serials__item-img">
+                        <a href="" class="serials__item-icon"><i class="fad fa-play"></i></a>
+                        <h3 class="serials__item-title">The Flash </h3>
+                    </div>
+                    <div class="serials__item">
+                        <img src="./img/serial4.jpg" alt="The Great" class="serials__item-img">
+                        <a href="" class="serials__item-icon"><i class="fad fa-play"></i></a>
+                        <h3 class="serials__item-title">The Great</h3>
+                    </div>
+                    <div class="serials__item">
+                        <img src="./img/serial5.jpg" alt="GOTHAM" class="serials__item-img">
+                        <a href="" class="serials__item-icon"><i class="fad fa-play"></i></a>
+                        <h3 class="serials__item-title">GOTHAM</h3>
+                    </div>
+                    <div class="serials__item">
+                        <img src="./img/serail6.jpg" alt="The witcher" class="serials__item-img">
+                        <a href="" class="serials__item-icon"><i class="fad fa-play"></i></a>
+                        <h3 class="serials__item-title">The witcher</h3>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content container">
+            <div class="footer__item">
+                <a href="" class="footer__link">
+                    <img src="./img/google pla.svg" alt="">
+                </a>
+                <a href="" class="footer__link">
+                    <img src="./img/footer appstore.svg" alt="">
+                </a>
+            </div>
+
+            <p class="footer__text">© PROWEB. В целях обучения 2021</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
+<!-- 
+    {
+        <video></video> tegiga qoshimcha atributlar
+        
+        autoplay = video avtomatik tarzda ijro etadi
+        muted = videoni ovozsiz qilib beradi
+        loop = videoni qayta qayta ijro etib beradi
+        
+         <video src="./videos/video.mp4" autoplay muted loop></video>
+    }
+    
+    
+   { 
+        <a></a> tegining qoshimcha atributlari
+    
+        target="_blank" havolani yangi oynada ochib beradi
+        <a href="https://www.youtube.com" target="_blank">Watch now</a>
+        
+        download="./rasim.png" yuklab olish atributi
+        <a href="#!" download="./videos/video.mp4">Download</a>
+    }
+ -->

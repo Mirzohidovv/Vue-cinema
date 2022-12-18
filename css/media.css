@@ -1,0 +1,167 @@
+/* 
+1200px - container = max-width: 970px;
+992px - container = max-width: 750px;
+768px - container = max-width: unset;
+576px - container = max-width: unset;
+475px - container = max-width: unset;
+375px - container = max-width: unset;
+320px - container = max-width: unset;
+*/
+
+@media (max-width:1200px) {
+    .container {
+        max-width: 970px;
+    }
+
+    .films__box {
+        overflow: hidden;
+        overflow-x: auto;
+    }
+
+    .films__card {
+        flex-shrink: 1;
+    }
+
+    .serials__items {
+        grid-template-columns: 1fr;
+    }
+
+    .serials__item:nth-of-type(1) {
+        grid-column: unset;
+        grid-row: unset;
+        width: 100%;
+    }
+
+    .serials__item {
+        width: 100%;
+        height: 404px;
+
+    }
+
+}
+
+@media (max-width:992px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        max-width: unset;
+    }
+
+    .header-nav__content {
+        flex-direction: column;
+    }
+
+    .header-nav__logo {
+        margin-top: 10px;
+    }
+
+    .header-nav__padding {
+        padding: 22px 6px;
+    }
+
+    .intro__content {
+        align-items: center;
+    }
+
+    .intro__title {
+        font-size: 54px;
+    }
+
+    .intro__text {
+        max-width: 470px;
+    }
+
+    .cartoons {
+        background: rgba(255, 255, 255, 0.6);
+    }
+
+    .cartoons__bg {
+        width: 100%;
+    }
+
+    .cartoons__content {
+        align-items: center;
+    }
+
+    .serials__poster-text {
+        display: none;
+    }
+    .footer__content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:576px) {
+    .intro__title {
+        font-size: 44px;
+    }
+
+    .intro__text {
+        max-width: 370px;
+    }
+
+    .intro__links {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
+
+@media (max-width:475px) {
+    .intro__title {
+        font-size: 34px;
+    }
+
+    .intro__text {
+        max-width: 270px;
+    }
+
+    .cartoons__logo {
+        width: 345px;
+    }
+    .serials__poster-title{
+        font-size: 30px;
+    }
+    
+}
+
+@media (max-width:375px) {
+    .header-nav__list {
+        column-gap: 10px;
+    }
+
+    .intro__title {
+        font-size: 28px;
+    }
+
+    .intro__text {
+        max-width: 230px;
+    }
+
+    .link {
+        width: 134px;
+        font-size: 14px;
+    }
+
+    .cartoons__logo {
+        width: 300px;
+    }
+    .footer__text{
+        display: none;
+    }
+
+    .serials__poster-title{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }   
+
+}
+
+@media (max-width:320px) {
+   
+}
